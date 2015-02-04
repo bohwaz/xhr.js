@@ -2,9 +2,9 @@
 
 This is the smallest XmlHttpRequest Javascript micro-library ever. EVER!
 
-* Uncompressed: 831 bytes
-* Minified: 474 bytes
-* Minified + GZ compress: 348 bytes
+* Uncompressed: 779 bytes
+* Minified: 446 bytes
+* Minified + GZ compress: 329 bytes
 
 Supports all browsers:
 
