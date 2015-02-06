@@ -18,7 +18,7 @@ var xhr = function (url, callback, format, errorCallback) {
 			
 			if (format == 'json')
 			{
-				return ((j = window.JSON) && j.parse) ? j.parse(result) : eval('(' + result.replace(/[\n\r]/g, '') + ')');
+				result = ((j = window.JSON) && j.parse) ? j.parse(result) : eval('(' + result.replace(/[\n\r]/g, '') + ')');
 			}
 
 			callback(result);
